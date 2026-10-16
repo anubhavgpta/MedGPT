@@ -1,0 +1,17 @@
+{
+  "TotalSteps": 20000,
+  "ScheduleStartStep": 10000,
+  "BatchSize": 16,
+  "AccumulationSteps": 1,
+  "LearningRate": 0.00003,
+  "MinLearningRate": 0.00001,
+  "WarmupSteps": 0,
+  "GradientClip": 1.0,
+  "EvaluationInterval": 250,
+  "EvaluationBatches": 20,
+  "SaveInterval": 500,
+  "Patience": 12,
+  "MinDelta": 0.002,
+  "Seed": 42,
+  "DataDirectory": "Data"
+}

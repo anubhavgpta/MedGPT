@@ -1,0 +1,25 @@
+# Local Python and editor state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+.pytest_cache/
+
+# Local corpora, trained weights, experiment outputs, and backups
+Data/
+Runs/
+Backups/
+Temp/
+*.pt
+*.pth
+*.pdf
+*.tmp
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
